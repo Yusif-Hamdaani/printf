@@ -40,12 +40,7 @@ int main(void)
     printf("Len:[%d]\n", len2);
     _printf("test print %% + 'd' with no args: [%%d]\n");
     printf("test print %% + 'd' with no args: [%%d]\n");
-    
-    _printf("\n***********CUSTOM _PRINTF FUNCTIONALITY************\n");
-    len = _printf("Reverse, 'hello!': [%r]\n", "hello!");
-    len = _printf("rot13 of 'main', expected 'Ubyoregba': [%R]\n", "main");
-    len = _printf("reversed 1 char: [%r]\n", "c");
-    len = _printf("binary, expected: '1100010' - %b\n", 98);
-
+    _printf("%b\n", 98);
+    _printf("%S\n", "Best\nSchool");
     return (0);
 }
