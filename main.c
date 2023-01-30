@@ -41,6 +41,6 @@ int main(void)
     _printf("test print %% + 'd' with no args: [%%d]\n");
     printf("test print %% + 'd' with no args: [%%d]\n");
     _printf("%b\n", 98);
-    _printf("%S\n", "Best\nSchool");
+    _printf("%S\n", "Best School.\n");
     return (0);
 }
